@@ -10,11 +10,13 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'js';
   name: string = 'NGQABUTHO NCUBE';
-  money: number = 10/5;
+  surname: String = 'Ncube';
+  place: string= 'Joburg';
 
   constructor () {
     console.log(this.name);
-    console.log (this.money);
+    console.log (this.surname);
+    console.log (this.place);
 
 
 
