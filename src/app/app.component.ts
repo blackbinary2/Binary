@@ -9,4 +9,14 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'js';
+  name: string = 'NGQABUTHO NCUBE';
+  money: number = 10/5;
+
+  constructor () {
+    console.log(this.name);
+    console.log (this.money);
+
+
+
+  }
 }
